@@ -1,0 +1,46 @@
+.header .navbar{
+    background-color: black;
+
+    margin-bottom: 1px;
+}
+
+.header .logo img{
+
+    height: 4rem;
+
+}
+
+.header .login img{
+
+    height: 2rem;
+    transition: .3s;
+
+}
+.header .login img:hover{
+
+    transform: scale(1.3,1.3);
+
+}
+
+
+.header .navbar a{
+
+    margin:0 1rem;
+
+    font-size: 1rem;
+
+    font-style: bold;
+
+    color:#fff;
+
+}
+.header .navbar a:hover{
+
+    color:wheat;
+
+    border-bottom: .1rem solid wheat;
+
+    padding-bottom: .5rem;
+
+}
+

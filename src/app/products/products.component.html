@@ -1,0 +1,73 @@
+<app-navbar></app-navbar>
+<section>
+    <div class="card-top container-fluid">
+
+        <div class="container d-flex">
+
+            <div class="item">
+
+                <a href="javascript:void(0)" (click)="filter('')">Products</a>
+
+            </div>
+
+            <div class="item">
+
+                <a href="javascript:void(0)" (click)="filter('Coffee')">Coffee</a>
+
+            </div>
+
+            <div class="item">
+
+                <a href="javascript:void(0)" (click)="filter('Tea')">Tea</a>
+
+            </div>
+
+            <div class="item">
+
+                <a href="javascript:void(0)" (click)="filter('Beverage')">Beverage</a>
+
+            </div>
+
+            <div class="item">
+
+                <a href="javascript:void(0)" (click)="filter('Snacks')">Snacks</a>
+
+            </div>
+
+            <div class="form-group">
+
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+            </div>
+        </div>
+    </div>
+    
+    
+    <h1 class="heading"> our <span>menu</span></h1>
+    
+<div class="container">
+
+    <div class="row">
+
+        <ng-container *ngFor="let item of filterCategory | filter:searchKey:'title'">
+
+            <div class="card col-md-3">
+
+                <img src="{{item.image}}" alt="">
+
+                <h5 style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;text-align: center;">{{item.title}}</h5>
+
+                <p style="white-space: nowrap;overflow: hidden;text-overflow: ellipsis;max-width: 100ch;">{{item.description}}</p>
+
+                <p style="text-align: center;"><strong>Price:</strong> ₹{{item.price}}</p>
+                
+
+                <button class="btn btn-primary mb1 bg-green" (click)="addtocart(item)">Add to cart</button>
+                
+            </div>
+
+        </ng-container>
+
+    </div>
+
+</div>
+</section>

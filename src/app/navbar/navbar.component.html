@@ -1,0 +1,46 @@
+<header class="header">
+
+<nav class="navbar navbar-expand-md">
+  <div class="logo">
+    <img src="/assets/logo.png" alt="">
+  </div>
+    
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto"  >
+
+      <a class="navbar-brand" href="javascript:void(0);" routerLink="/">Home</a>
+          <li class="nav-item"><a href="javascript:void(0);" routerLink="/products" class="nav-link" >Menu</a></li>
+      
+  
+      <ng-container *ngIf="this.auth.isAuthenticated();then authenticated;else notAuthenticated">
+  
+      </ng-container>
+  
+        <ng-template #notAuthenticated>
+          
+          <div style="margin-left:950px;" class="login" routerLink="/login">
+            <img src="/assets/user.png" alt="">
+          </div>
+          
+        </ng-template>
+  
+        <ng-template #authenticated>
+         
+          <li><a style="margin-left: 850px;"class="nav-link" href="javascript:void(0);" (click)="logout()" >Logout</a></li>
+          <div class="cart">
+          <button routerLink="/cart" class="btn primary mb1 bg-black">
+            <i style="font-size:20px; color: white;"class="fa fa-cart-plus"></i>      
+            <div style="font-size:10px;"class="badge bg-danger">{{totalItem}}</div>        
+          </button> 
+          </div>
+          
+        </ng-template>  
+    </ul>    
+    </div>
+    
+  </nav>
+  </header>

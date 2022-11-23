@@ -1,0 +1,459 @@
+[
+{
+"id":1,
+"title":"Cappuccino",
+"price":350,
+"description":"A cappuccino is an espresso-based coffee drink that originated in Italy and is prepared with steamed milk foam",
+"category":"Coffee",
+"image":"../assets/cappacino.png",
+"rating":{"rate":4,"count":120}},
+
+
+{
+"id":2,
+"title":"Espresso",
+"price":325,
+"description":"Espresso is a coffee-brewing method of Italian",
+"category":"Coffee",
+"image":"../assets/expresso.png",
+"rating":{"rate":4.5,"count":150}},
+
+
+
+{
+"id":3,
+"title":"Latte",
+"price":370,
+"description":"Is a coffee beverage of Italian origin made with espresso and steamed milk.",
+"category":"Coffee",
+"image":"../assets/latte.png",
+"rating":{"rate":3.5,"count":130}},
+
+
+
+
+{
+"id":4,
+"title":"Americano",
+"price":390,
+"description":" A type of coffee drink prepared by diluting an espresso with hot water",
+"category":"Coffee",
+"image":"../assets/americano.png",
+"rating":{"rate":3.2,"count":150}},
+
+
+
+
+
+
+{
+"id":5,
+"title":"Cold Coffe",
+"price":200,
+"description":"Cold coffee is a coffee beverage served cold. It may be prepared either by brewing coffee ",
+"category":"snacks",
+"image":"../assets/iced coffee.png",
+"rating":{"rate":4.5,"count":190}},
+
+
+
+
+
+
+
+
+
+
+
+{
+"id":6,
+"title":"Irish coffee",
+"price":"450",
+"description":" Irish coffee  is a caffeinated alcoholic drink consisting of Irish whiskey, hot coffee, and sugar, stirred, and topped with cream , The coffee is drunk through the cream.",
+"category":"Coffee",
+"image":"../assets/irish coffee.png",
+"rating":{"rate":3.5,"count":110}},
+
+
+
+
+
+
+
+
+
+
+{
+"id":7,
+"title":"Latte Macchiato",
+"price":280,
+"description":" Latte macchiato is a coffee beverage stained or marked milk , an espresso with a dollop or two of milk or cream.",
+"category":"Coffee",
+"image":"../assets/latte machito.png",
+"rating":{"rate":4.5,"count":190}},
+
+
+
+{
+"id":8,
+"title":"Iced espresso",
+"price":345,
+"description":" Iced espresso is espresso served over ice, often with milk.",
+"category":"Coffee",
+"image":"../assets/iced expresso.png",
+"rating":{"rate":4.5,"count":120}},
+
+
+{
+"id":9,
+"title":"Pumpkin Spice Latte",
+"price":399,
+"description":"The Pumpkin Spice Latte is a coffee drink made with a mix of traditional autumn spice flavors , steamed milk, espresso, and often sugar, topped with whipped cream and pumpkin pie spice.",
+"category":"Coffee",
+"image":"../assets/pumpkin.png",
+"rating":{"rate":4.5,"count":145}},
+
+
+
+{
+"id":10,
+"title":"Mazagran coffee",
+"price":385,
+"description":"Mazagran is a cold, sweetened coffee drink that originated in Algeria. Portuguese versions may use espresso, lemon, mint and rum, and Austrian versions are served with an ice cube and include rum.",
+"category":"Coffee",
+"image":"../assets/mazagran.png",
+"rating":{"rate":3.2,"count":180}},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+"id":11,
+"title":"Iced Mocha",
+"price":340,
+"description":"A shot of espresso is combined with a chocolate powder or syrup, followed by milk or cream.",
+"category":"Coffee",
+"image":"../assets/iced mocha.png",
+"rating":{"rate":4,"count":120}},
+
+{
+    "id":12,
+    "title":"Doppio",
+    "price":395,
+    "description":" A doppio tastes precisely like an espresso, with a concentrated coffee taste and aroma.",
+    "category":"Coffee",
+    "image":"../assets/Doppie.png",
+    "rating":{"rate":4.4,"count":180}},
+    
+    
+    
+    
+    {
+    "id":13,
+    "title":"Black Coffee",
+    "price":250,
+    "description":"Black coffee is a beverage made from roasted coffee beans. ",
+    "category":"Coffee",
+    "image":"../assets/Black coffee.png",
+    "rating":{"rate":4.2,"count":200}},
+    
+    
+    
+    
+    
+    
+    {
+    "id":14,
+    "title":"Dark Chocolate Mocha ",
+    "price":399,
+    "description":"Dark Mocha Frappuccino For serious chocolate lovers, We blend dark cocoa with milk, ice and coffee",
+    "category":"Coffee",
+    "image":"../assets/DarkChocolate.png",
+    "rating":{"rate":4.0,"count":150}},
+    
+    
+    
+    
+    
+    
+    
+    {
+    "id":15,
+    "title":"Caffe Misto",
+    "price":390,
+    "description":" The caffe misto is the American version of a cafe au lait",
+    "category":"Coffee",
+    "image":"../assets/caffee misto.png",
+    "rating":{"rate":3.1,"count":150}},
+    
+    
+    
+    {
+    "id":16,
+    "title":"white chocolate mocha",
+    "price":385,
+    "description":" For serious chocolate lovers, We blend dark cocoa with milk, ice and coffee ",
+    "category":"Coffee",
+    "image":"../assets/whitechocolate.png",
+    "rating":{"rate":3.3,"count":150}},
+    
+    
+    
+    
+    {
+    "id":17,
+    "title":"Affogato Coffee",
+    "price":385,
+    "description":" an espresso coffee over a scoop of vanilla or hazelnut ice cream ",
+    "category":"Coffee",
+    "image":"../assets/affogato.png",
+    "rating":{"rate":4.3,"count":150}},
+    
+    
+    
+    
+    {
+    "id":18,
+    "title":"Cortado",
+    "price":375,
+    "description":"A cortado is a beverage consisting of espresso mixed with a roughly equal amount of warm milk to reduce the acidity  ",
+    "category":"Coffee",
+    "image":"../assets/Cortado.png",
+    "rating":{"rate":4.2,"count":100}},
+    
+    
+    
+    {
+    "id":19,
+    "title":"Flat White",
+    "price":375,
+    "description":"A flat white is a coffee drink consisting of espresso with microfoam steamed milk with small, fine bubbles and a glossy or velvety consistency.  ",
+    "category":"Coffee",
+    "image":"../assets/flatwhite.png",
+    "rating":{"rate":4.5,"count":180}},
+     
+    
+    
+    {
+    "id":20,
+    "title":"Brown Sugar Irish Coffee",
+    "price":375,
+    "description":" hot coffee, Irish whiskey, and sugar, stirred, and topped with cream.",
+    "category":"Coffee",
+    "image":"../assets/brownsugar.png",
+    "rating":{"rate":4.5,"count":100}},
+    
+    
+    
+    
+    {
+    "id":21,
+    "title":"Chai Tea Latte",
+    "price":375,
+    "description":" A chai latte is made by mixing steamed milk with black tea that has been infused with spices",
+    "category":"Tea",
+    "image":"../assets/Chai tea latte.png",
+    "rating":{"rate":4.5,"count":120}},
+    
+    
+    
+    
+    {
+    "id":22,
+    "title":"Mint Majesty",
+    "price":250,
+    "description":" Mint Majesty features spearmint, peppermint, and lemon verbena which makes it a refreshing twist on traditional peppermint tea.",
+    "category":"Tea",
+    "image":"../assets/mint tea.png",
+    "rating":{"rate":4.5,"count":220}},
+    
+    
+    
+    {
+    "id":23,
+    "title":"Peach Tranquility",
+    "price":375,
+    "description":"soft peach shimmers alongside tropical pineapple with delicate herbal notes of lemon verbena and a chamomile finish",
+    "category":"Tea",
+    "image":"../assets/peach tranquility.png",
+    "rating":{"rate":4.5,"count":150}},
+    
+    
+    
+    
+    
+    {
+    "id":24,
+    "title":"Emperor clouds & Mist",
+    "price":375,
+    "description":" Compelling mix of smoky, vegetal, and citrus aromas brew into a pale golden infusion.",
+    "category":"Tea",
+    "image":"../assets/emperorcloud.png",
+    "rating":{"rate":4.5,"count":220}},
+    
+    
+    
+    
+    {
+    "id":25,
+    "title":"Matcha Tea Latte",
+    "price":275,
+    "description":" a tea-based beverage combining vivid green matcha tea powder and milk, or a dairy substitute, to create a smooth, creamy, caffeinated coffee alternative",
+    "category":"Tea",
+    "image":"../assets/Matcha tea latte.png",
+    "rating":{"rate":4.5,"count":240}},
+    
+    
+    
+    
+    {
+    "id":26,
+    "title":"Honey Citrus Mint Tea",
+    "price":275,
+    "description":" A sweet, soothing blend of peach and green mint tea with lemon and honey",
+    "category":"Tea",
+    "image":"../assets/Honey citrus.png",
+    "rating":{"rate":4.5,"count":100}},
+    
+    
+    {
+    "id":27,
+    "title":"Earl  Grey Tea",
+    "price":475,
+    "description":" Typically a black tea base flavored with oil from the rind of bergamot orange, a citrus fruit with the appearance and flavo",
+    "category":"Tea",
+    "image":"../assets/earlgrey.png",
+    "rating":{"rate":4.5,"count":100}},
+    
+    
+    {
+    "id":28,
+    "title":"Dark Chocolate",
+    "price":275,
+    "description":"Perfect Snack to Complement your Latte",
+    "category":"Snacks",
+    "image":"../assets/choco.png",
+    "rating":{"rate":4.5,"count":100}},
+    
+    
+    
+    
+    
+    {
+    "id":29,
+    "title":"Pineapple Passionfruit Refreshers",
+    "price":280,
+    "description":"A tangy, fruit-forward blend of passionfruit and pineapple juices",
+    "category":"Beverage",
+    "image":"../assets/pineapple.png",
+    "rating":{"rate":4.5,"count":100}},
+    
+    
+    {
+    "id":30,
+    "title":"Strawberry Açaí  Refreshers",
+    "price":280,
+    "description":"  Sweet strawberry flavors accented by passion fruit and açaí notes, caffeinated with green coffee extract",
+    "category":"Beverage",
+    "image":"../assets/Strawberry acai.png",
+    "rating":{"rate":4.5,"count":100}},
+    
+    
+    
+    
+    
+    {
+    "id":31,
+    "title":"Mango Dragonfruit  Refreshers",
+    "price":280,
+    "description":" A mixture of different fruit juices which results in a delicious summery drink that you can enjoy at any time of the year.",
+    "category":"Beverage",
+    "image":"../assets/mango dragonfruit.png",
+    "rating":{"rate":4.5,"count":120}},
+    
+    
+    
+    
+    {
+    "id":32,
+    "title":"Vanilla Biscotti with Almonds",
+    "price":280,
+    "description":"Biscotti is a sliced cookie made from a long piece of dough that has been baked, cut into individual pieces and finally re-baked to obtain characteristic texture and low moisture ",
+    "category":"Snacks",
+    "image":"../assets/vanilla.png",
+    "rating":{"rate":4.5,"count":120}}, 
+    
+    
+    
+    {
+    "id":33,
+    "title":"Gingerbread Biscotti",
+    "price":280,
+    "description":"Gingerbread Biscotti is a sliced cookie made from a long piece of dough that has been baked, cut into individual pieces and finally re-baked to obtain characteristic texture and low moisture.",
+    "category":"Snacks",
+    "image":"../assets/Gingerbread.png",
+    "rating":{"rate":4.5,"count":100}},
+    
+    
+    
+    
+    
+    
+    
+    {
+    "id":33,
+    "title":"Plain Bagel",
+    "price":130,
+    "description":"Chewy, doughy interior with a browned and sometimes crisp exterior. ",
+    "category":"Snacks",
+    "image":"../assets/plain.png",
+    "rating":{"rate":4.5,"count":180}}, 
+    
+    
+    
+    {
+    "id":34,
+    "title":"Rusk",
+    "price":130,
+    "description":"hard crisp bread originally used as ship's stores. ",
+    "category":"Snacks",
+    "image":"../assets/rusk.png",
+    "rating":{"rate":4.5,"count":120}}, 
+    
+    
+    
+    {
+    "id":35,
+    "title":"Double Chocolate Brownie",
+    "price":230,
+    "description":"Double Chocolate Brownie. ",
+    "category":"Snacks",
+    "image":"../assets/double.png",
+    "rating":{"rate":4.5,"count":190}}
+    ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+.login-block{
+
+   
+
+  width:100%;
+
+  padding : 50px 0;
+
+  text-align: center;
+
+}
+
+section{
+
+  background:linear-gradient(to right,#0e0806,#c39c80,#693f29);
+
+}
+
+
+
+.container{
+
+  position: relative;
+
+  width: 450px;
+
+  min-height: 430px;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  background-color: rgb(255,255,255,0.2);
+
+  border: 1px solid white;
+
+  backdrop-filter: blur(5px);
+
+  box-shadow: 0 20px 30px black;
+
+}
+
+.login-sec{
+
+  padding: 50px 30px;
+
+  position:relative;
+
+  text-align: center;
+
+}
+.login-sec h2{
+
+  margin-bottom:30px;
+
+  font-weight:800;
+
+  font-size:30px;
+
+  color: white;
+
+}
+
+.login-sec h2:after{
+
+  content:" ";
+
+  width:100px;
+
+  height:5px;
+
+  background:white;
+
+  display:block;
+
+  margin-top:20px;
+
+  border-radius:3px;
+
+  margin-left:auto;
+
+  margin-right:auto
+
+}
+
+.btn-login{
+
+  border-radius: 10px;
+
+  color:#fff;
+
+  font-weight:600;
+
+  background: white;
+
+  color: black;
+  margin-top: 15px;
+  margin-left: 300px;
+
+}
+.text-uppercase{
+
+  padding-left: 10px;
+
+  margin-left: 5px;
+
+  justify-content: center;
+  
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+}
+
+.form-control{
+
+  background: rgba(255,255,255,0.2);
+
+  border-radius: 10px;
+
+  color: black;
+
+  margin-left: 5px;
+
+  width: 380px;
+
+}
+
+.form-group a{
+
+  text-align: center;
+
+  margin-left: 1px;
+
+  color: white;
+
+}
+
+.e{
+
+  width: 7%;
+
+  margin-left: 0.5px;
+
+}
+
+.p{
+
+  width: 3.2%;
+
+  margin-left: 2px;
+
+}

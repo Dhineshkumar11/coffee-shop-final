@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+:root{
+
+    --main-color:#d3ad7f;
+
+    --black:#13131a;
+
+    --bg:#010103;
+
+    --border:.1rem solid rgba(255,255,255,.3);
+
+}
+
+*{
+
+    font-family: 'Roboto', sans-serif;
+
+    margin:0; padding:0;
+
+    box-sizing: border-box;
+
+    outline: none; border:none;
+
+    text-decoration: none;
+
+    text-transform: capitalize;
+
+    transition: .2s linear;
+
+}
+
+section{
+
+    padding:2rem 7%;
+
+    background-color: #010103;
+
+}
+
+.heading{
+
+    text-align: center;
+
+    color:white;
+
+    text-transform: uppercase;
+
+    padding-bottom: 3.5rem;
+
+    font-size: 3rem;
+
+}
+
+
+
+.heading span{
+
+    color:#d3ad7f;
+
+    text-transform: uppercase;
+
+}
+.head{
+
+    text-align: center;
+
+    color:white;
+
+    text-transform: uppercase;
+
+    padding-bottom: 3.5rem;
+     padding-top: 2.5rem;
+
+    font-size: 3rem;
+
+}
+
+.head span{
+
+    color:#d3ad7f;
+
+    text-transform: uppercase;
+
+}
+.home{
+
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    background:url(https://th.bing.com/th/id/R.30a934c201ef1af5e38d9761afed749a?rik=W4H%2bAO5YXpxljQ&riu=http%3a%2f%2feskipaper.com%2fimages%2fcoffee-wallpapers-4.jpg&ehk=BnlfTgtiNSZ2Y%2bkW6hgHhQNiEYhU4vQI%2fpDt1t69HLc%3d&risl=&pid=ImgRaw&r=0) no-repeat;
+
+    background-color: #010103;
+
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+
+
+.home .content{
+
+    max-width: 60%;
+
+}
+
+
+
+.home .content h3{
+
+    font-size: 4rem;
+
+    line-height: 1.2;
+
+    text-transform: uppercase;
+
+    color:#fff;
+
+}
+
+
+
+.home .content p{
+
+    font-size: 1.2rem;
+
+    font-weight: lighter;
+
+    line-height: 1.8;
+
+    padding:1rem 0;
+
+    color:#eee;
+
+}
+
+.btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding:.9rem 3rem;
+    font-size: 1rem;
+    color:#fff;
+    background: rgba(182, 89, 35, 0.616);
+    cursor: pointer;
+}
+
+
+
+
+
+.btn:hover{
+    letter-spacing: .2rem;
+}
+
+.category .tead{
+    display: flex;
+
+    align-items: center;
+
+    background:black;
+
+    margin: 10px;
+
+    border-color: white;
+
+    border-width: thin;
+
+
+    border-radius: 20px;
+
+    flex-wrap:var(--main-color);
+    
+    padding-bottom: 50px;
+
+}
+
+.about .row{
+
+    display: flex;
+
+    align-items: center;
+
+    background:rgb(32, 32, 32);
+
+    border-radius: 20px;
+
+    flex-wrap:var(--main-color);
+
+}
+
+
+
+.about .row .image{
+
+    flex:50rem;
+
+    border-radius: 20px;
+
+    flex-wrap:wrap;
+;
+}
+
+
+
+.about .row .image img{
+
+    width: 100%;
+    height: 518px;
+    
+
+
+
+}
+
+.about .row .content{
+
+    flex:45rem;
+
+    padding:2rem;
+
+
+}
+
+
+
+.about .row .content h3{
+
+    font-size: 2rem;
+
+    font-weight: 40;
+
+    font-family:cursive;
+
+    color: rgba(182, 89, 35, 0.616);
+    
+}
+
+
+
+.about .row .content p{
+
+    font-size: 1.6rem;
+
+    color:#ccc;
+
+    padding:1rem 0;
+
+    line-height: 1.8;
+    
+    
+    
+}
+
+.gallery .box-container{
+
+    display: flex;
+
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+
+    gap:1.5rem;
+
+
+}
+
+
+
+.gallery .box-container .box{
+
+    position: relative;
+
+    border:0.6rem solid #333;
+
+    border-radius: .5rem;
+
+    height: 25rem;
+
+    cursor: pointer;
+
+    overflow: hidden;
+
+}
+
+
+
+.gallery .box-container .box img{
+
+    height: 100%;
+
+    width: 100%;
+
+    object-fit: cover;
+
+}
+
+
+
+.gallery .box-container .box:hover img{
+
+    transform: scale(1.1);
+
+    filter: grayscale();
+
+}
+
+
+
+.gallery .box-container .box .title{
+
+    position: absolute;
+
+    top:-10rem; left:0; right: 0;
+
+    background:#333;
+
+    color:#fff;
+
+    text-align: center;
+
+    padding-bottom: 1rem;
+
+    font-size: 2rem;
+
+}
+
+
+
+.gallery .box-container .box:hover .title{
+
+    top:0;
+
+}
+.gallery .box-container .box .icons{
+
+    position: absolute;
+
+    bottom:-10rem; left:0; right: 0;
+
+    background:#333;
+
+    padding-top: 1rem;
+
+    text-align: center;
+
+}
+
+
+
+.gallery .box-container .box:hover .icons{
+
+    bottom: 0;
+
+}
+
+
+
+.gallery .box-container .box .icons a{
+
+    font-size: 2rem;
+
+    margin:.5rem 1rem;
+
+    color:#fff;
+
+}
+
+
+
+.gallery .box-container .box .icons a:hover{
+
+    color:var(--main-color);
+
+}
+.a1{
+    padding: 65px;
+    color: white;
+    transition: 0.3s;
+}
+.a1:hover{
+    transform: scale(1.2,1.2);
+}
+.a2{
+    padding: 65px;
+    color: white;
+    transition: 0.3s;
+}
+.a2:hover{
+    transform: scale(1.2,1.2);
+}
+.a3{
+    padding: 65px;
+    color: white;
+    transition: 0.3s;
+}
+.a3:hover{
+    transform: scale(1.2,1.2);
+}
+.a4{
+    padding: 65px;
+    color: white;
+    transition: 0.3s;
+}
+.a4:hover{
+    transform: scale(1.2,1.2);
+}
+.a5{
+    padding: 65px;
+    color: white;
+    transition: 0.3s;
+}
+.a5:hover{
+    transform: scale(1.2,1.2);
+}
+
+
+@media (max-width:991px){
+    .header{
+
+        padding:1.5rem 2rem;
+
+    }
+
+
+    section{
+
+        padding:2rem;
+
+    }
+
+
+
+
+
+}
+
+@media (max-width:768px){
+
+    .header .navbar{
+
+        position: absolute;
+
+        top:100%; right: -100%;
+
+        background: #fff;
+
+        width: 30rem;
+
+        height: calc(100vh - 9.5rem);
+
+    }
+
+
+
+    .header .navbar.active{
+
+        right:0;
+
+    }
+
+
+
+    .header .navbar a{
+
+        color:var(--black);
+
+        display: block;
+
+        margin:1.5rem;
+
+        padding:.5rem;
+
+        font-size: 2rem;
+
+    }
+
+    .home{
+
+        background-position: left;
+
+        justify-content: center;
+
+        text-align: center;
+
+
+    }
+
+
+
+    .home .content h3{
+
+        font-size: 4.5rem;
+
+    }
+
+
+
+    .home .content p{
+
+        font-size: 1.5rem;
+
+    }
+
+
+
+}

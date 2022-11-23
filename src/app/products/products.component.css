@@ -1,0 +1,159 @@
+.card-top {
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    min-width: 0;
+
+    word-wrap: break-word;
+
+    background: #fff;
+
+    background-clip: border-box;
+
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+    border-radius: .25rem;
+
+}
+.item img {
+
+    width: 64px;
+
+}
+
+.item {
+
+    margin: 0px 15px;
+
+    text-align: center;
+}
+.item a:hover {
+
+    color: blue;
+
+}
+
+.card {
+
+    padding: 20px;
+
+    margin: 30px;
+    background: black;
+    color: #fff;
+    border-width: thin;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    transition: .3s;
+}
+.card:hover{
+    background: white;
+    color:black;
+    transform: scale(1.1,1.1);
+}
+.card img {
+
+    width: 200px;
+
+    height: 200px;
+
+    margin-bottom: 25px;
+
+    transition: 0.3s ease-in-out;
+}
+.card img:hover {
+
+    transition: 0.3s ease-in-out;
+
+    transform: scale(1.1);
+}
+section{
+    background: black;
+}
+.btn-primary{
+    font-style: bold;
+    font-size: 20px;
+    border-radius: 20px;
+    background: wheat;
+    color: black;
+    transition: .3s;
+}
+.btn-primary:hover{
+    background: black;
+    color:#fff;
+    transform: scale(1.1,1.1);
+}
+.heading{
+
+    text-align: center;
+
+    color:#d3ad7f;
+
+    text-transform: uppercase;
+
+    padding-bottom: 0.5rem;
+
+    font-size: 3rem;
+
+}
+
+.heading span{
+ 
+    color:white;
+
+    text-transform: uppercase;
+
+}
+section .card-top  {
+
+    background: black;
+
+    padding-left: 10px;
+
+    padding-top: 20px;
+
+    padding-bottom: 20px;
+
+}
+.item a{
+
+    margin: 1px 10px;
+
+    text-align: center;
+
+    color: white;
+
+    background: black;
+
+    background-size: cover;
+
+    font-size: 20px;  
+    
+}
+
+.item a:hover {
+
+    color: wheat;
+
+}
+.form-group .form-control {
+
+    border-radius: 30px;
+
+    width: 250px;
+
+    margin-left: 350px;
+
+    text-align: center;
+    transition: .3s;
+
+}
+.form-group .form-control:hover{
+    background: wheat;
+    color: black;
+    transform: scale(1.1);
+}
+
