@@ -1,29 +1,35 @@
-# Log
+Angular Coffee shop project 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+Angular coffee shop project using paypal and firebase authentication Gothic 
 
-## Development server
+readme text:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Welcome to the Angular Coffee Shop Project, an e-commerce application built using Angular, Firebase Authentication, and PayPal integration.
 
-## Code scaffolding
+Getting Started:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To get started with the application, please follow these steps:
 
-## Build
+Clone the repository to your local machine.
+Navigate to the project directory and run npm install to install the necessary dependencies.
+Create a Firebase project and set up Firebase Authentication.
+Configure your Firebase credentials in the environment.ts file.
+Set up PayPal integration by creating a PayPal developer account and configuring your client ID in the app.component.ts file.
+Run ng serve to start the application.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Features
 
-## Running unit tests
+The Angular Coffee Shop Project includes the following features:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+User authentication with Firebase Authentication.
+A product catalog that displays coffee products and allows users to add products to their cart.
+A shopping cart that allows users to view their cart and checkout using PayPal.
+User profile management, including the ability to view order history and update account information.
 
-## Running end-to-end tests
+Contributing
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Contributions to the Angular Coffee Shop Project are welcome. Please submit a pull request for any changes or improvements you would like to make.
 
-## Further help
+License
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-"# coffee-shop" 
-"# coffee-shop" 
+This project is licensed under the MIT License. See the LICENSE file for details.
